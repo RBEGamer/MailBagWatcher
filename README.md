@@ -22,15 +22,22 @@ A powerful mailbag watcher with push notification
 
 # BUILD HARDWARE
 
-## THE NOR GATE
+## THE FIRST NOR GATE
 To build the nor gate used for inverting the reedswitch state (if you have a toogle reed switch you can skip this step)
-A nor gate is really simple
+A nor gate is really simple to build with the NE555 Timer.
+In the chart you can see the logic table
 
 | IN        | OUT           |
 | ------------- |:-------------:|
 | 0      | 1 |
 | 1      | 0      |
 
+Connect `VCC` to pin `8 (vcc)` and `GND` to pin `1 (gnd)` of the Timer IC, this is for all of the Timer ICs we are using the same. So you can build all ic aligned in a collum and connect the same pins.
+For the NOR Gate connect pin `2 (trigger)` with pin `6 threshold ` and connect these to `VCC` over a pullup resistor.
+Last step connect the pins to `GND` over the (normal open) reedswitch. This reedswitch is your trigger if new mail is avariable.
+Pin `3 (output)` is the output to the RS FlipFlop.
+
+## THE SECOND NOR GATE
 
 
 # SOFTWARE
