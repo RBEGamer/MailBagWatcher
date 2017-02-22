@@ -22,6 +22,15 @@ A powerful mailbag watcher with push notification
 
 # BUILD HARDWARE
 
+## THE NOR GATE
+To build the nor gate used for inverting the reedswitch state (if you have a toogle reed switch you can skip this step)
+A nor gate is really simple
+|IN   |OUT   |
+|---   |---   |
+|0   |1   |
+|1   |0   |
+
+
 # SOFTWARE
 
 # IMAGES
