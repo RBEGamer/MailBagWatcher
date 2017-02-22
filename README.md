@@ -13,6 +13,7 @@ A powerful mailbag watcher with push notification
 * 4 pull up resistors 47k-100k
 * [optional] 3 push buttons for testing
 * [optional] 2 leds for status indication
+* wires, headers,..
 
 # TOOLS
 * soldering stuff
@@ -39,6 +40,19 @@ Pin `3 (output)` is the output to the RS FlipFlop.
 
 ## THE SECOND NOR GATE
 The second nor gate was a copy of the first nor gate unitl the pull up resistor. The resistor is connected to `GND` instead of `VCC` and 
+
+## THE RS FLIP FLOP
+
+## CONNECTING EVERYTHING
+
+
+## [OPTIONAL / IF NEEDED] EXPAND THE WIFI ANTENNA
+If you have a metal mailbox youll have to use an external wifiantenna on the omega 2.
+The Omega2 has a wifi antenna port on Ebay you will get some adapters for reqular connectors.
+If you have a old laptop you often find a good antenna there or you can use a piece of wire of a certain lenght
+So the Wifi rund at 2.4Ghz that means you need a odd multible of lambda/4.
+Your wire can be for example 3cm or 9.5cm.
+Further inforamtion can be found at http://www.dl2jas.com/antennen/antennenimpedanz/antennenimpedanz.html
 
 # SOFTWARE
 
