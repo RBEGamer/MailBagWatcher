@@ -8,9 +8,10 @@ A powerful mailbag watcher with push notification
 * LowVoltage StepUpConverter
 * double AA Battery Holder
 * 2 (best toggle) reedswitches
-* [optional] 4 push buttons
 * LogicLevel Mosfet or Transistor (>= 400mA)
 * 2 Magnets for the reed switches
+* [optional] 4 push buttons for testing
+* [optional] 2 leds for status indication
 
 # TOOLS
 * soldering stuff
