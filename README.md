@@ -10,7 +10,7 @@ A powerful mailbag watcher with push notification
 * 2 (best toggle) reedswitches
 * LogicLevel Mosfet or Transistor (>= 400mA)
 * 2 Magnets for the reed switches
-* 4 pull up resistors 47k-100k
+* 5 pull up resistors 47k-100k
 * [optional] 3 push buttons for testing
 * [optional] 2 leds for status indication
 * wires, headers,..
