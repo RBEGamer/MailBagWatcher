@@ -38,22 +38,23 @@ For the NOR Gate connect pin `2 (trigger)` with pin `6 threshold ` and connect t
 Last step connect the pins to `GND` over the (normal open) reedswitch. This reedswitch is your trigger if new mail is avariable.
 Pin `3 (output)` is the output to the RS FlipFlop.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/RBEGamer/MailBagWatcher/blob/master/Documentation/Images/norgate_1.jpg)
 
 
 ## THE SECOND NOR GATE
 The second nor gate was a copy of the first nor gate unitl the pull up resistor. The resistor is connected to `GND` instead of `VCC` and 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/RBEGamer/MailBagWatcher/blob/master/Documentation/Images/norgate_2.jpg)
 
 
 ## THE RS FLIP FLOP
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/RBEGamer/MailBagWatcher/blob/master/Documentation/Images/rs_gate.jpg)
 
 
 ## CONNECTING EVERYTHING
-
+![alt text](https://github.com/RBEGamer/MailBagWatcher/blob/master/Documentation/Images/final_front.jpg)
+![alt text](https://github.com/RBEGamer/MailBagWatcher/blob/master/Documentation/Images/final_back.jpg)
 
 ## [OPTIONAL / IF NEEDED] EXPAND THE WIFI ANTENNA
 If you have a metal mailbox youll have to use an external wifiantenna on the omega 2.
