@@ -38,7 +38,7 @@ Last step connect the pins to `GND` over the (normal open) reedswitch. This reed
 Pin `3 (output)` is the output to the RS FlipFlop.
 
 ## THE SECOND NOR GATE
-
+The second nor gate was a copy of the first nor gate unitl the pull up resistor. The resistor is connected to `GND` instead of `VCC` and 
 
 # SOFTWARE
 
