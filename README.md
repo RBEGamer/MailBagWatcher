@@ -26,11 +26,11 @@ A powerful mailbag watcher with push notification
 To build the nor gate used for inverting the reedswitch state (if you have a toogle reed switch you can skip this step)
 A nor gate is really simple
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| IN        | OUT           |
+| ------------- |:-------------:|
+| 0      | 1 |
+| 1      | 0      |
+
 
 
 # SOFTWARE
