@@ -11,6 +11,13 @@ A powerful mailbag watcher with push notification
 * [optional] 4 push buttons
 * LogicLevel Mosfet or Transistor (>= 400mA)
 * 2 Magnets for the reed switches
+<<<<<<< HEAD
+=======
+* 5 pull up resistors 47k-100k
+* [optional] 3 push buttons for testing
+* [optional] 2 leds for status indication
+* wires, headers,..
+>>>>>>> e4c3a552406d9c7fe7a0e837b87f5a07d35bef48
 
 # TOOLS
 * soldering stuff
