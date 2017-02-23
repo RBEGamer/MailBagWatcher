@@ -37,13 +37,11 @@ Connect `VCC` to pin `8 (vcc)` and `GND` to pin `1 (gnd)` of the Timer IC, this 
 For the NOR Gate connect pin `2 (trigger)` with pin `6 threshold ` and connect these to `VCC` over a pullup resistor.
 Last step connect the pins to `GND` over the (normal open) reedswitch. This reedswitch is your trigger if new mail is avariable.
 Pin `3 (output)` is the output to the RS FlipFlop.
-
 ![alt text](https://github.com/RBEGamer/MailBagWatcher/blob/master/Documentation/Images/norgate_1.jpg)
 
 
 ## THE SECOND NOR GATE
-The second nor gate was a copy of the first nor gate unitl the pull up resistor. The resistor is connected to `GND` instead of `VCC` and 
-
+The second nor gate was a copy of the first nor gate unitl the pull up resistor. The resistor is connected to `GND` instead of `VCC`.
 ![alt text](https://github.com/RBEGamer/MailBagWatcher/blob/master/Documentation/Images/norgate_2.jpg)
 
 
@@ -66,6 +64,18 @@ Further inforamtion can be found at http://www.dl2jas.com/antennen/antennenimped
 ![alt text](https://github.com/RBEGamer/MailBagWatcher/blob/master/Documentation/Images/omega_extend_wifi.jpg)
 
 # SOFTWARE
+At bootup, my mailbagwatcher runs a pythonscript whitch sends a pushnotification over the pushover service, sends a request to my fhem installation and at the end a gpio will set to `1 (HIGH)` to power off the system.
+The pushnotification is only an example, you have the complete linux environment for your usage.
+
+## INSTALL PYTHON
+Python is not on the omega2 installed by default, so we need to install a python-light version, this will need 8mb from the 14mb of the omega2. To install python you can simply run the commands from `/src/python_omega2_install.sh`. The script will update and install python.
+
+## CREATE SCRIPT AND SET AS STARTUP
+
+
+
+
+
 
 # IMAGES
 
