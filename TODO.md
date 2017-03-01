@@ -2,4 +2,4 @@
 
 
 * add install pictures
-* 
+* add complete schem
