@@ -24,6 +24,7 @@ Then you have all the power of the linux environment and after you have finished
 
 
 # BUILD HARDWARE
+All shown ICs are the NE555 Timer (sorry for the missing caption)
 
 ## THE FIRST NOR GATE
 To build the nor gate used for inverting the reedswitch state (if you have a toogle reed switch you can skip this step)
