@@ -1,9 +1,11 @@
 # MailBagWatcher
-A powerful mailbag watcher with push notification
-
+A powerful mailbag watcher with push notification.
+The device will be installed inside of you mailbag and waits for a trigger signal eg opening the maildoor.
+If the trigger activated, the power will be enabled to boot up a linux pc (omega2 in my case or RPI,..).
+Then you have all the power of the linux environment and after you have finished the tasks (send notifications,..) you can shutdown the system. To shutdown you simply have to set the resetpin of the power circuit to HIGH and the system waits for the next trigger.
 
 # PARTS
-* Onion Omega 2 (https://onion.io)
+* Onion Omega 2 (https://onion.io) or Intel Edison, RPI
 * 3 NE555 Timer IC (or 1 RS FlipFlop 74xx107 and 2 nor gates 74x2G02)
 * LowVoltage StepUpConverter
 * double AA Battery Holder
