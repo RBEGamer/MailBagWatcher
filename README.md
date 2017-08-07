@@ -6,7 +6,7 @@ Then you have all the power of the linux environment and after you have finished
 
 
 
-# This project was fatured by the onion.io newsletter in 26.08.2017
+# This project was featured by the onion.io newsletter 26.08.2017
 # https://onion.io/2bt-youve-got-real-mail-notifications/
 
 # PARTS
