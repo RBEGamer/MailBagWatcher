@@ -90,3 +90,13 @@ Python is not on the omega2 installed by default, so we need to install a python
 
 # TODO
 Please see `TODO.md`
+
+
+
+
+
+
+
+
+# DONATION
+[![paypal](https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8D2PEDQ27UJ9Y)
